@@ -1,0 +1,38 @@
+# Local credentials and identity
+auth.json
+installation_id
+
+# Codex runtime state
+.codex-global-state.json*
+.personality_migration
+history.jsonl
+session_index.jsonl
+models_cache.json
+version.json
+rules/
+sessions/
+shell_snapshots/
+
+# Logs and databases
+log/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+sqlite/
+
+# Caches and temporary files
+cache/
+tmp/
+.tmp/
+plugins/cache/
+vendor_imports/
+
+# Built-in system skills are managed by Codex, not this repo
+skills/.system/
+
+# macOS and editors
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
